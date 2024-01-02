@@ -53,6 +53,8 @@ function App() {
       default:
         count
     }
+
+    setUndoHistory([])
   }
 
   const handleUndo = () => {
